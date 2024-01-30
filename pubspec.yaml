@@ -1,5 +1,5 @@
 name: table_pagination
-description: A new Flutter package project.
+description: The package helps to implement pagination in table. User can have multiple pages and need to load data according to the offset so this package will help to show the desired amount of data in a page.
 version: 0.0.1
 homepage: https://pub.dev/packages/table_paginationn
 
