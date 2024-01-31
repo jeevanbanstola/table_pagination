@@ -11,29 +11,37 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+TODO: A Flutter package that provides a table pagination widget for easy navigation between pages.
 
-## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+# Table Pagination
 
-## Getting started
+A Flutter package that provides a table pagination widget for easy navigation between pages.
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+## Installation
 
+Add the following to your `pubspec.yaml` file:
+
+```yaml
+dependencies:
+  table_pagination: ^1.0.0
 ## Usage
 
 TODO: Include short and useful examples for package users. Add longer examples
 to `/example` folder.
-
-```dart
-const like = 'sample';
-```
+TablePagination(
+  handleIndexChange: (int pageIndex) {
+    // Handle index change logic here
+      },
+  pageIndex: 1, // Initial page index
+  totalRows: 100, // Total number of rows in the table
+  limit: 10, // Number of rows per page
+  kcPrimaryColor: Colors.blue, // Customize the primary color
+)
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+TODO: Tell users more about the package: Contributions are welcome! If you find a bug or want to add a new feature, please open an issue or submit a pull request.
+
+LISENCE: 
+Please note that the structure and content of your `README.md` may vary based on the features and documentation you want to provide for your `table_pagination` package. Customize it according to your specific package details.
